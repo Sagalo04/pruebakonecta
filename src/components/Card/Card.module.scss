@@ -1,0 +1,56 @@
+.Card {
+    // background-color: #FDE2E2;
+    padding: 0 1rem;
+    min-width: 18rem;
+    border-radius: 18px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 0 1 150px;
+    margin: 2rem;
+}
+.category {
+    background-color: white;
+    border-radius: 38px;
+    width: max-content;
+    padding: 0 1rem;
+}
+
+.price {
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 0;
+    span {
+        font-size: 21px;
+        font-weight: 200;
+    }
+}
+p {
+    font-size: 21px;
+    font-weight: 200;
+    margin-bottom: 3rem;
+}
+
+.action {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 25px;
+    margin-bottom: 2rem;
+}
+.iconcontainer {
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+svg:hover{
+    transform: scale(0.9);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}

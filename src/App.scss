@@ -1,0 +1,161 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 0;
+  .logo {
+    width: 20rem;
+    margin-bottom: 3rem;
+  }
+}
+.CardDeck {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.buscador {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-right: 0.5rem;
+  width: 30rem;
+  margin-bottom: 1rem;
+  img {
+    position: absolute;
+    z-index: 1;
+    top: 0.6rem;
+    margin-left: 1rem;
+    align-self: flex-start;
+    width: 34px;
+    height: 34px;
+  }
+
+  input {
+    border: none;
+    border-radius: 38px;
+    padding: 16px 20px 16px 60px;
+    width: 100%;
+    outline: none;
+    font-weight: 200;
+    font-size: 21px;
+    background-color: #f3f3f3;
+  }
+
+  input::placeholder {
+    color: #808080;
+    font-size: 21px;
+    font-weight: 200;
+  }
+
+  input::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    height: 20px;
+    width: 20px;
+    background: url(https://pro.fontawesome.com/releases/v5.10.0/svgs/solid/times-circle.svg) no-repeat 50% 50%;
+    opacity: 0.5;
+  }
+}
+.agregar {
+  margin-bottom: 1rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f3f3f3;
+  border-radius: 38px;
+  padding-right: 43px;
+  margin-left: 0.5rem;
+  cursor: pointer;
+  span {
+    margin-left: 1rem;
+    font-size: 22px;
+    font-weight: 200;
+    transition: all ease 0.3s;
+  }
+  .iconcontainer {
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    box-shadow: 0px 2px 6px -2px rgba(0, 0, 0, 0.25);
+  }
+}
+
+.agregar:hover {
+  span {
+    transform: scale(0.9);
+    transition: all ease 0.3s;
+  }
+  svg {
+    transform: scale(0.9);
+    transition: all ease 0.3s;
+  }
+}
+
+.o_modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: aliceblue;
+  outline: none;
+  padding: 1rem;
+  width: 30%;
+  .o_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    text-align: center;
+    h1 {
+      margin-bottom: 1rem;
+    }
+    button {
+      outline: none;
+      border: none;
+      border-radius: 38px;
+      background-color: #cae7f7;
+      font-size: 21px;
+      font-weight: 200;
+      padding: 0.7rem 2rem;
+      box-shadow: 0px 2px 6px -2px rgba(0, 0, 0, 0.25);
+    }
+    button {
+      outline: none;
+      border: none;
+      border-radius: 38px;
+      background-color: #cae7f7;
+      font-size: 21px;
+      font-weight: 200;
+      padding: 0.7rem 2rem;
+      box-shadow: 0px 2px 6px -2px rgba(0, 0, 0, 0.25);
+      transition: all ease .3s;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #aee0fc;
+      box-shadow: 0px 2px 6px -1px rgba(0, 0, 0, 0.35);
+    }
+  }
+}
