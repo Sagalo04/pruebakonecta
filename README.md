@@ -2,11 +2,12 @@
 
 ## Instrucciones
 
-In the project directory, you can run:
+Clonar el proyecto utilizando los comandos de github en el terminal ### `git clone `
 
 ### `npm start`
 
-Runs the app in the development mode.\
+Luego ejecutar el comando ### `npm install` para instalara todos los paquetes y dependencias necesarios
+
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
