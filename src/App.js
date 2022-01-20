@@ -307,7 +307,7 @@ function App() {
             onSubmit={() => peticionPutVenta()}
             autoComplete="off">
             <h1>Venta de Producto</h1>
-            <TextField required fullWidth type="number" InputProps={{ inputProps: { min: 0, max: productoSelect.stock } }}  id="outlined-basic" label="Stock" variant="outlined" name="stock" onChange={handleChangeVenta} value={venta} />
+            <TextField required fullWidth type="number" InputProps={{ inputProps: { min: 0, max: productoSelect.stock } }}  id="outlined-basic" label="Cantidad" variant="outlined" name="cantidad" onChange={handleChangeVenta} value={venta} />
             <button type='submit' >Realizar Venta</button>
           </Box>
         </Box>
